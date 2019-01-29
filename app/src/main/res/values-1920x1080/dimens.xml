@@ -1,0 +1,14 @@
+<resources>
+    <!--===========================1080P=========================-->
+
+    <dimen name="common_tip_dialog_width">320dp</dimen>
+    <dimen name="fingerprint_verify_dialog_width">280dp</dimen>
+    <!-- 字体大小 -->
+    <dimen name="common_text_size_mini">12sp</dimen>
+    <dimen name="common_text_size_smaller">14sp</dimen>
+    <dimen name="common_text_size_middle">16sp</dimen>
+    <dimen name="common_text_size_small">16sp</dimen>
+    <dimen name="common_text_size_normal">18sp</dimen>
+    <dimen name="common_text_size_big">20sp</dimen>
+    <dimen name="common_text_size_bigger">22sp</dimen>
+</resources>

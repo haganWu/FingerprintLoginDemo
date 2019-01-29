@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dialog_bg"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="@dimen/fingerprint_verify_dialog_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/common_round_corner_white_bg"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:background="@color/white"
+            android:src="@mipmap/fingerprint_icon"/>
+
+
+        <TextView
+            android:id="@+id/tv_fingerprint_tip_content"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_below="@id/tv_kindly_reminder"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="9999"
+            android:text="请验证指纹"
+            android:textColor="@color/text_black_color"
+            android:textSize="@dimen/font_normal2"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="16dp"
+            android:background="#e6e6e6"/>
+
+
+        <TextView
+            android:id="@+id/tv_fingerprint_button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_tip_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@color/white"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/cancel"
+            android:textColor="@color/text_black_color"
+            android:textSize="@dimen/font_normal2"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

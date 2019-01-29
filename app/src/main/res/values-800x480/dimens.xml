@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_tip_dialog_width">260dp</dimen>
+    <dimen name="fingerprint_verify_dialog_width">220dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="common_text_size_mini">12sp</dimen>
+    <dimen name="common_text_size_smaller">12sp</dimen>
+    <dimen name="common_text_size_small">14sp</dimen>
+    <dimen name="common_text_size_middle">15sp</dimen>
+    <dimen name="common_text_size_normal">16sp</dimen>
+    <dimen name="common_text_size_big">18sp</dimen>
+    <dimen name="common_text_size_bigger">20sp</dimen>
+</resources>

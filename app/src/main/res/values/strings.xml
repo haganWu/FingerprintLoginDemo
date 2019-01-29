@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FingerprintLoginDemo</string>
+    <string name="kindly_reminder">温馨提示</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="fingerprint_account">Hello,%s</string>
+    <string name="fingerprintChangeTip">您设备的指纹发生了变化或系统出错,指纹登录已关闭.请使用其他方式登录后重新开启.</string>
+</resources>
