@@ -2,7 +2,7 @@
 指纹登录-功能:检测设备是否支持;指纹验证失败后错误提示;支持检测系统指纹库发生变化后需重新录入指纹功能.
 
 1.密码登录/指纹登录 切换
-![密码/指纹登录](https://github.com/haganWu/FingerprintLoginDemo/blob/master/screenshots/device-2019-01-29-163419.png)
+![密码/指纹登录](https://github.com/haganWu/FingerprintLoginDemo/blob/master/screenshots/device-2019-01-29-163419.jpg)
 
 ![密码/指纹登录](https://github.com/haganWu/FingerprintLoginDemo/blob/master/screenshots/device-2019-01-29-155313.png)
 
