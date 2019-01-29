@@ -26,3 +26,5 @@
 
 5.系统指纹库发生变化
 ![系统指纹库发生变化](https://github.com/haganWu/FingerprintLoginDemo/blob/master/screenshots/device-2019-01-29-155158.png)
+
+**(如有缺陷望指正!!!)**
