@@ -171,7 +171,6 @@ public class HomeActivity extends AppCompatActivity implements FingerprintHelper
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.iv_fingerprint_login_switch:
-                isOpen = !isOpen;
                 dealOnOff(isOpen);
                 break;
         }
@@ -179,9 +178,9 @@ public class HomeActivity extends AppCompatActivity implements FingerprintHelper
 
     private void dealOnOff(boolean isOpen) {
         if (isOpen) {
-            openFingerprintLogin();
-        } else {
             showCloseFingerprintTipDialog();
+        } else {
+            openFingerprintLogin();
         }
     }
 
@@ -211,6 +210,7 @@ public class HomeActivity extends AppCompatActivity implements FingerprintHelper
      * @date 2019/1/24-14:41
      */
     private void closeFingerprintLogin() {
+        isOpen = false;
         SPUtil.getInstance().putBoolean(Constants.SP_HAD_OPEN_FINGERPRINT_LOGIN, false);
         setSwitchStatus();
         helper.closeAuthenticate();
